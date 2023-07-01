@@ -1,0 +1,435 @@
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Poppins|Source+Sans+Pro|Montserrat:400,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+h1{clear:both}
+
+hr{margin-bottom: 100px;
+margin-top: 0px;}
+i{width: 80px;}
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1.5em;
+}
+
+.main-logo{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.wines{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+    list-style-type: none;
+}
+
+
+.menu-titles {
+    margin-top: 0;
+    font-size: 4em;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1em;
+}
+.upper-section{
+    height: 4250px;
+}
+.middle-section{
+    height: 2455px;
+}
+.third-section{
+    height: 2280px;
+}
+
+.fourth-section{
+    height: 2050px;
+}
+.fifth-section{
+    height: 2300px;
+}
+.sixth-section{
+    padding-right: 100px;
+    height: 2300px;
+    /* https://css-tricks.com/stripes-css/ */
+    background-image: 
+  
+  repeating-linear-gradient(
+    
+    30deg,
+    transparent,
+    
+    transparent 15px,
+     10px,
+     #e6eff3 19px
+    
+
+  ),
+  linear-gradient(
+    to bottom,
+    to bottom,
+    white,
+    white
+    
+  );
+  
+}
+.seventh-section{
+    height: 1800px;
+    background-image: 
+  
+  repeating-linear-gradient(
+    
+    32.5deg,
+    transparent,
+    
+    transparent 15px,
+     10px,
+    #e6eff3 19px
+    
+
+  ),
+  linear-gradient(
+    to bottom,
+    white,
+    white
+    
+  );
+}
+.eighth-section{
+    height: 1600px;
+    background-image: 
+  
+  repeating-linear-gradient(
+    
+    33deg,
+    transparent,
+    
+    transparent 15px,
+     10px,
+    #e6eff3 19px
+    
+
+  ),
+  linear-gradient(
+    to bottom,
+    white,
+    white
+    
+  );
+}
+.ninth-section{
+    height: 2100px;
+    background-image: 
+  
+  repeating-linear-gradient(
+    
+    33deg,
+    transparent,
+    
+    transparent 15px,
+     10px,
+    #e6eff3 19px
+    
+
+  ),
+  linear-gradient(
+    to bottom,
+    white,
+    white
+    
+  );
+}
+.tenth-section{
+    height: 2200px;
+    background-image: 
+  
+  repeating-linear-gradient(
+    
+    33deg,
+    transparent,
+    
+    transparent 15px,
+     10px,
+    #e6eff3 19px
+    
+
+  ),
+  linear-gradient(
+    to bottom,
+    white,
+    white
+    
+  );
+}
+.eighth-sub{
+    float: left;
+    width: 33.333333%;
+    height: 1600px;
+    padding-top: 400px;
+}
+.ninth-sub-left{
+    float: left;
+    width: 45%;
+    height: 2100px;
+    padding-top: 100px;
+}
+.ninth-sub-right{
+    float: left;
+    width: 55%;
+    height: 2100px;
+}
+.tenth-sub-left{
+    float: left;
+    width: 45%;
+    height: 2200px;
+    padding-top: 400px;
+}
+.tenth-sub-right{
+    float: left;
+    width: 55%;
+    height: 2200px;
+    padding-top: 350px;
+}
+
+.right-fourth-menu{
+    float:right;
+    width:50%;
+    height: 2050px;
+    padding-top: 150px;
+}
+.right-fifth-menu{
+    float:right;
+    width:50%;
+    height: 2300px;
+}
+.left-fifth-menu{
+    float:left;
+    width:50%;
+    height: 2300px;
+    padding-top: 100px;
+}
+.left-fourth-menu{
+    float:left;
+    width:50%;
+    height: 2050px;
+    
+}
+
+.left-menu {
+    float:left;
+    width:50%;
+    height: 4300px;
+    
+}
+
+.right-menu{
+    float:right;
+    width:50%;
+    height: 4300px;
+}
+.left-middle-menu {
+    float:left;
+    width:50%;
+    height: 1870px;
+}
+
+.right-middle-menu{
+    float:right;
+    width:50%;
+    height: 1945px;
+}
+.left-third-menu{
+    float:left;
+    width:50%;
+    height: 2280px;
+    
+    padding-top: 100px;
+}
+
+.right-third-menu{
+    float:right;
+    width:50%;
+    height: 2280px;
+    padding-top: 100px;
+}
+.starter-table{
+    width: 100%;
+    margin: auto;
+    letter-spacing: 0.2em;
+    margin-bottom: 7%;
+    position: relative;
+}
+.starter-item{
+    text-align: left;
+    font-size: 2em;
+    list-style-type: none;
+    padding-top: 1%;
+
+}
+.starter-number{
+    display: inline-block;
+    color: rgb(56, 109, 205);
+    padding-right: 10px;
+    font-weight: 900;
+    font-size: 2em;
+    vertical-align: baseline;
+    line-height: 0;
+}
+.starter-separator{
+    padding-left: 50px;
+    vertical-align: baseline;
+}
+.sashimi-separator{
+    vertical-align: baseline;
+    padding-top: 25px;
+}
+.new-separator{
+    vertical-align: baseline;
+    padding-top: 25px;
+    width: 85px;
+}
+.soup-table{
+    width: 100%;
+    margin: auto;
+    letter-spacing: 0.2em;
+    margin-bottom: 7%;
+}
+.soup-separator{
+    padding-left: 100px;
+    vertical-align: baseline;
+}
+.leaf{
+    color: green;
+    font-size: 1em;
+}
+.circle{
+    color: rgb(56, 109, 205);
+}
+.neither{
+text-align: right;
+padding-right: 12px;
+}
+
+.Carpaccios-images{
+    width: 100%;
+    float: left;
+}
+.Carpaccios-table{
+    width: 100%;
+    margin: auto;
+    letter-spacing: 0.2em;
+    margin-bottom: 693px;
+}
+.TSU-SHIMIS-table{
+    width: 100%;
+    margin: auto;
+    letter-spacing: 0.2em;
+    margin-bottom: 408px;
+}
+.Carpaccios-separator{
+    vertical-align: baseline;
+}
+
+.chirashis-table{
+    letter-spacing: 0.2em;
+}
+.sashimi-table{
+    width: 100%;
+    margin: auto;
+    letter-spacing: 0.2em;
+    margin-bottom: 300px;
+}
+.uramaki-table1{
+    width: 100%;
+    margin: auto;
+    letter-spacing: 0.2em;
+    margin-bottom: 150px;
+}
+.sushi-table{
+    width: 100%;
+    margin: auto;
+    letter-spacing: 0.2em;
+    margin-bottom: 200px;
+}
+.hosumaki-table{
+    width: 100%;
+    margin: auto;
+    letter-spacing: 0.2em;
+    margin-bottom: 100px;
+}
+.holiday-table{
+    width: 100%;
+    margin: auto;
+
+    letter-spacing: 0.2em;
+    margin-bottom: 100px;
+}
+.wine-table{
+    width: 100%;
+    margin: auto;
+    padding-left: 25px;
+    letter-spacing: 0.2em;
+}
+.salad-table{
+    letter-spacing: 0.2em;
+}
+
+.item-description{
+    font-size: 0.7em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 150;
+    font-style: italic;
+    margin-bottom: 2%;
+    list-style-type: none;
+}
+.item-price{
+    font-size: 0.7em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    list-style-type: none;
+}
+.wine-price{
+    font-size: 1.25em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    list-style-type: none;
+}
+.currency{
+    font-size: 0.8em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 250;
+    padding-left: 2%;
+}
+.protien-choice{
+    font-size: 0.5em;
+}
+.pieces{
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.holiday-images{
+    padding-left: 100px;
+}
+
+.cut{
+    
+  
+  clip-path: polygon(48% 15%, 75% 0%, 84% 6%, 95% 50%, 30% 100%, 12% 100%, 0% 70%, 0% 47%);
+}
+.cut2{
+    clip-path: ellipse(580px 500px at 72% 37%)
+    
+}
+.drinks-font{
+    color: white;
+}
