@@ -1,63 +1,998 @@
-@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Poppins|Source+Sans+Pro|Montserrat:400,900&display=swap");
 
 * {
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+
 h1{clear:both}
 
 hr{margin-bottom: 100px;
 margin-top: 0px;}
-i{width: 80px;}
-.container {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 1.5em;
-}
 
-.main-logo{
+i{width: 80px;}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1.5em;
+  }
+
+  .main-logo{
     width: 400px;
     margin: auto;
     text-align: center;
     margin-bottom: 10px;
 }
-.wines{
+
+.page1{
+    height: 1950px
+}
+.page1-left{
+    float:left;
+    width:50%;
+    height: 1950px;
+}
+.page1-right{
+    float:left;
+    width:50%;
+    height: 1950px;
+}
+
+.starter-table{
+    width: 100%;
+    margin: auto;
+    letter-spacing: 0.1em;
+    margin-bottom: 7%;
+    position: relative;
+    padding-right: 10%;
+    padding-left: 4%;
+    
+}
+.Starter-title {
+    font-size: 3.5em;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 0.1em;
+    padding-right: 200px;
+}
+.starter-item{
     text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-size: 1.75em;
+    list-style-type: none;
+    padding-top: 1.5%;
+
+}
+
+.starter-number{
+    display: inline-block;
+    color: rgb(56, 109, 205);
+    padding-right: 10px;
+    font-weight: 900;
     font-size: 1.5em;
+
+    line-height: 0;
+}
+.starter-name{
     letter-spacing: 0.05em;
+    font-weight: 500;
+    line-height: 1;
+}
+.starter-description{
+    font-size: 0.7em;
+    
+    font-weight: 150;
+    font-style: italic;
+    margin-bottom: 0.5%;
     list-style-type: none;
 }
 
-
-.menu-titles {
-    margin-top: 0;
-    font-size: 4em;
+.starter-pcs{
+    font-size: 0.7em;
+    
+    font-weight: 150;
+    font-style: italic;
+    margin-bottom: 0.5%;
+    list-style-type: none;
+    padding-left: 2%;
+}
+.starter-separator{
+    vertical-align: baseline;
+    width: 1%;
+}
+.starter-price{
+    font-size: 0.75em;
+    font-weight: 400;
+}
+.starter-currency{
+    font-size: 0.8em;
+    font-weight: 200;
+    padding-left: 1%;
+}
+.soup-table{
+    width: 100%;
+    margin: auto;
+    letter-spacing: 0.1em;
+    margin-bottom: 7%;
+}
+.soup-title {
+    font-size: 3.5em;
     font-weight: 300;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     letter-spacing: 0.1em;
-}
-.upper-section{
-    height: 4250px;
-}
-.middle-section{
-    height: 2455px;
-}
-.third-section{
-    height: 2280px;
+    padding-right: 20%;
 }
 
-.fourth-section{
-    height: 2050px;
+.soup-item{
+    text-align: left;
+    font-size: 1.75em;
+    list-style-type: none;
+    padding-top: 1.5%;
+    padding-left: 2.5%;
+
 }
-.fifth-section{
+.soup-number{
+    display: inline-block;
+    color: rgb(56, 109, 205);
+    padding-right: 10px;
+    font-weight: 900;
+    font-size: 1.5em;
+
+    line-height: 0;
+}
+.soup-name{
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    line-height: 1;
+}
+.soup-description{
+    font-size: 0.7em;
+    
+    font-weight: 150;
+    font-style: italic;
+    margin-bottom: 0.5%;
+    list-style-type: none;
+}
+.soup-separator{
+    vertical-align: baseline;
+    padding-left: 7.5%;
+}
+.soup-pcs{
+    font-size: 0.7em;
+    
+    font-weight: 150;
+    font-style: italic;
+    margin-bottom: 0.5%;
+    list-style-type: none;
+    padding-left: 2%;
+}
+
+.soup-price{
+    font-size: 0.75em;
+    font-weight: 400;
+}
+.soup-currency{
+    font-size: 0.8em;
+    font-weight: 200;
+    padding-left: 1%;
+}
+.soup-border{
+    width: 75%;
+    border-style: solid;
+    border-radius:25px;
+    border-width: 5px;
+    border-color: rgb(223, 60, 60);
+    margin-bottom: 67px;
+     float: right;
+}
+.Carpaccios-table{
+    width: 100%;
+    margin: auto;
+    letter-spacing: 0.1em;
+    margin-bottom: 7%;
+    position: relative;
+}
+.Carpaccios-title {
+    font-size: 3.5em;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 0.1em;
+    padding-right: 7.5%;
+    text-align: right;
+}
+.Carpaccios-item{
+    text-align: left;
+    font-size: 1.75em;
+    list-style-type: none;
+    padding-left: 5%;
+
+}
+
+.Carpaccios-number{
+    display: inline-block;
+    color: rgb(56, 109, 205);
+    padding-right: 10px;
+    font-weight: 900;
+    font-size: 1.5em;
+
+    line-height: 0;
+}
+.Carpaccios-name{
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    line-height: 1;
+}
+.Carpaccios-description{
+    font-size: 0.7em;
+    
+    font-weight: 150;
+    font-style: italic;
+    margin-bottom: 0.5%;
+    list-style-type: none;
+}
+.Carpaccios-pcs{
+    font-size: 0.7em;
+    
+    font-weight: 150;
+    font-style: italic;
+    margin-bottom: 0.5%;
+    list-style-type: none;
+    padding-left: 2%;
+}
+.Carpaccios-separator{
+    vertical-align: baseline;
+    width: 1%;
+    padding-left: 5%;
+}
+.Carpaccios-price{
+    font-size: 0.75em;
+    font-weight: 400;
+}
+.Carpaccios-currency{
+    font-size: 0.8em;
+    font-weight: 200;
+    padding-left: 1%;
+}
+.Carpaccios-images-container{
+    width: 25%;
+}
+.Carpaccios-images{
+    width: 100%;
+    float: left;
+}
+
+
+
+.page2{
+    height: 2060px;
+    padding-top: 10%;
+}
+.page2-left{
+    float:left;
+    width:50%;
+    height: 2060px;
+}
+.page2-right{
+    float:left;
+    width:50%;
+    height: 2060px;
+}
+.salad-table{
+    width: 100%;
+    margin: auto;
+    letter-spacing: 0.1em;
+    margin-bottom: 7%;
+    position: relative;
+    padding-right: 10%;
+    padding-left: 5%;
+}
+.salad-title {
+    font-size: 3.5em;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 0.1em;
+    padding-right: 40%;
+}
+.salad-item{
+    text-align: left;
+    font-size: 1.75em;
+    list-style-type: none;
+    padding-top: 1.5%;
+
+}
+
+.salad-number{
+    display: inline-block;
+    color: rgb(56, 109, 205);
+    padding-right: 10px;
+    font-weight: 900;
+    font-size: 1.5em;
+
+    line-height: 0;
+}
+.salad-name{
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    line-height: 1;
+}
+.salad-description{
+    font-size: 0.7em;
+    
+    font-weight: 150;
+    font-style: italic;
+    margin-bottom: 0.5%;
+    list-style-type: none;
+}
+
+.salad-separator{
+    vertical-align: baseline;
+    width: 1%;
+}
+.salad-price{
+    font-size: 0.75em;
+    font-weight: 400;
+}
+.salad-currency{
+    font-size: 0.8em;
+    font-weight: 200;
+    padding-left: 1%;
+}
+
+.chirashis-border{
+    width: 90%;
+    border-style: solid;
+    border-radius:25px;
+    border-width: 5px;
+    border-color: rgb(223, 60, 60);
+    margin-bottom: 67px;
+    margin-top: 30%;
+    padding-left: 5%;
+    margin-left: 5%;
+}
+
+.chirashis-table{
+    width: 100%;
+    margin: auto;
+    letter-spacing: 0.1em;
+    margin-bottom: 7%;
+    position: relative;
+    
+}
+.chirashis-title {
+    font-size: 3.5em;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 0.1em;
+    float: right;
+    padding-right: 12.5%;
+    
+}
+.chirashis-item{
+    text-align: left;
+    font-size: 1.75em;
+    list-style-type: none;
+    padding-left: 7.5%;
+
+}
+
+.chirashis-number{
+    display: inline-block;
+    color: rgb(56, 109, 205);
+    padding-right: 10px;
+    font-weight: 900;
+    font-size: 1.5em;
+
+    line-height: 0;
+}
+.chirashis-name{
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    line-height: 1;
+}
+.chirashis-description{
+    font-size: 0.7em;
+    
+    font-weight: 150;
+    font-style: italic;
+    list-style-type: none;
+}
+.chirashis-pcs{
+    font-size: 0.7em;
+    
+    font-weight: 150;
+    font-style: italic;
+    margin-bottom: 0.5%;
+    list-style-type: none;
+    padding-left: 2%;
+}
+.chirashis-separator{
+    vertical-align: baseline;
+    width: 1%;
+    padding-left: 7.5%;
+}
+.chirashis-price{
+    font-size: 0.75em;
+    font-weight: 400;
+}
+.chirashis-currency{
+    font-size: 0.8em;
+    font-weight: 200;
+    padding-left: 1%;
+}
+.chirashis-images{
+    width: 125%;
+    float: left;
+    padding-bottom: 30%;
+}
+
+.tsu-shimis-table{
+    width: 100%;
+    margin: auto;
+    letter-spacing: 0.1em;
+    margin-bottom: 7%;
+    position: relative;
+    border-spacing: 20px;
+}
+.tsu-shimis-title {
+    font-size: 3.5em;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 0.1em;
+    padding-right: 15%;
+    text-align: right;
+}
+.tsu-shimis-item{
+    text-align: left;
+    font-size: 1.75em;
+    list-style-type: none;
+    padding-top: 2%;
+
+
+}
+
+.tsu-shimis-number{
+    display: inline-block;
+    color: rgb(56, 109, 205);
+    padding-right: 10px;
+    font-weight: 900;
+    font-size: 1.5em;
+
+    line-height: 0;
+}
+.tsu-shimis-name{
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    line-height: 1;
+}
+.tsu-shimis-description{
+    font-size: 0.7em;
+    
+    font-weight: 150;
+    font-style: italic;
+    margin-bottom: 0.5%;
+    list-style-type: none;
+}
+.tsu-shimis-pcs{
+    font-size: 0.7em;
+    
+    font-weight: 150;
+    font-style: italic;
+    margin-bottom: 0.5%;
+    list-style-type: none;
+    padding-left: 1%;
+}
+.tsu-shimis-separator{
+    vertical-align: baseline;
+    width: 1%;
+    padding-left: 2.5%;
+    padding-top: 1%;
+}
+.tsu-shimis-price{
+    font-size: 0.75em;
+    font-weight: 400;
+}
+.tsu-shimis-currency{
+    font-size: 0.8em;
+    font-weight: 200;
+    padding-left: 1%;
+}
+.tsu-shimis-images-container{
+    width: 25%;
+}
+.tsu-shimis-images{
+    width: 100%;
+    float: left;
+}
+
+.page3{
+    height: 2227px;
+}
+.page3-left{
+    float:left;
+    width:50%;
+    height: 1772px;
+    padding-top: 3%;
+}
+.page3-right{
+    float:left;
+    width:50%;
+    height: 1772px;
+}
+.main-table{
+    width: 100%;
+    margin: auto;
+    letter-spacing: 0.1em;
+    margin-bottom: 7%;
+    position: relative;
+    padding-right: 10%;
+    padding-left: 6%;
+    border-spacing: 20px;
+    
+}
+.main-title {
+    font-size: 3.5em;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 0.1em;
+}
+.main-item{
+    text-align: left;
+    font-size: 1.75em;
+    list-style-type: none;
+    padding-top: 1.5%;
+
+}
+
+.main-number{
+    display: inline-block;
+    color: rgb(56, 109, 205);
+    padding-right: 10px;
+    font-weight: 900;
+    font-size: 1.5em;
+
+    line-height: 0;
+}
+.main-name{
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    line-height: 1;
+}
+.main-description{
+    font-size: 0.7em;
+    
+    font-weight: 150;
+    font-style: italic;
+    margin-bottom: 0.5%;
+    list-style-type: none;
+}
+.main-pcs{
+    font-size: 0.7em;
+    
+    font-weight: 150;
+    font-style: italic;
+    margin-bottom: 0.5%;
+    list-style-type: none;
+    padding-left: 2%;
+}
+.main-separator{
+    vertical-align: baseline;
+    width: 1%;
+}
+.main-price{
+    font-size: 0.9em;
+    font-weight: 400;
+}
+.main-currency{
+    font-size: 0.8em;
+    font-weight: 200;
+    padding-left: 1%;
+}
+.noodle-table{
+    width: 100%;
+    margin: auto;
+    letter-spacing: 0.1em;
+    margin-bottom: 7%;
+    position: relative;
+    padding-right: 10%;
+    padding-left: 6%;
+    border-spacing: 20px;
+    
+}
+.noodle-title {
+    font-size: 3.5em;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 0.1em;
+    
+    width: 500px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+
+}
+.noodle-item{
+    text-align: left;
+    font-size: 1.75em;
+    list-style-type: none;
+    padding-top: 1.5%;
+
+}
+
+.noodle-number{
+    display: inline-block;
+    color: rgb(56, 109, 205);
+    padding-right: 10px;
+    font-weight: 900;
+    font-size: 1.5em;
+
+    line-height: 0;
+}
+.noodle-name{
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    line-height: 1;
+}
+.noodle-description{
+    font-size: 0.7em;
+    
+    font-weight: 150;
+    font-style: italic;
+    margin-bottom: 0.5%;
+    list-style-type: none;
+}
+.noodle-pcs{
+    font-size: 0.7em;
+    
+    font-weight: 150;
+    font-style: italic;
+    margin-bottom: 0.5%;
+    list-style-type: none;
+    padding-left: 2%;
+}
+.noodle-separator{
+    vertical-align: baseline;
+    width: 1%;
+}
+.noodle-price{
+    font-size: 0.9em;
+    font-weight: 400;
+}
+.noodle-currency{
+    font-size: 0.8em;
+    font-weight: 200;
+    padding-left: 1%;
+}
+.protien-choice{
+    font-size: 0.6em;
+    padding-top: 2%;
+}
+
+.page4{
+    padding-top: 10%;
     height: 2300px;
 }
-.sixth-section{
+.page4-left{
+    float:left;
+    width:50%;
+    height: 2150px;
+}
+.page4-right{
+    float:left;
+    width:50%;
+    height: 2150px;
+}
+.sashimi-table{
+    width: 100%;
+    margin: auto;
+    letter-spacing: 0.2em;
+    margin-bottom: 40%;
+}
+.sashimi-separator{
+    vertical-align: baseline;
+    padding-top: 25px;
+}
+
+.sashimi-title {
+    font-size: 3.5em;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 0.1em;
+    padding-right: 200px;
+}
+.sashimi-item{
+    text-align: left;
+    font-size: 1.75em;
+    list-style-type: none;
+    padding-top: 1.5%;
+
+}
+
+.sashimi-number{
+    display: inline-block;
+    color: rgb(56, 109, 205);
+    padding-right: 10px;
+    font-weight: 900;
+    font-size: 1.5em;
+
+    line-height: 0;
+}
+.sashimi-name{
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    line-height: 1;
+}
+.sashimi-description{
+    font-size: 0.7em;
+    
+    font-weight: 150;
+    font-style: italic;
+    margin-bottom: 0.5%;
+    list-style-type: none;
+}
+.sashimi-pcs{
+    font-size: 0.7em;
+    
+    font-weight: 150;
+    font-style: italic;
+    margin-bottom: 0.5%;
+    list-style-type: none;
+    padding-left: 2%;
+}
+.sashimi-price{
+    font-size: 0.75em;
+    font-weight: 400;
+}
+.sashimi-currency{
+    font-size: 0.8em;
+    font-weight: 200;
+    padding-left: 1%;
+}
+.sushi-table{
+    width: 100%;
+    margin: auto;
+    letter-spacing: 0.2em;
+    margin-bottom: 15%;
+}
+.sushi-title {
+    font-size: 3.5em;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 0.1em;
+    
+}
+.sushi-item{
+    text-align: left;
+    font-size: 1.75em;
+    list-style-type: none;
+    padding-left: 5%;
+
+}
+
+.sushi-number{
+    display: inline-block;
+    color: rgb(56, 109, 205);
+    padding-right: 10px;
+    font-weight: 900;
+    font-size: 1.5em;
+    padding-left: 50%;
+    line-height: 0;
+}
+.sushi-name{
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    line-height: 1;
+    vertical-align: baseline;
+    padding-bottom: 5%;
+}
+.sushi-description{
+    font-size: 0.7em;
+    
+    font-weight: 150;
+    font-style: italic;
+    margin-bottom: 0.5%;
+    list-style-type: none;
+}
+
+.sushi-separator{
+    vertical-align: baseline;
+    width: 1%;
+}
+.sushi-price{
+    font-size: 0.75em;
+    font-weight: 400;
+}
+.sushi-currency{
+    font-size: 0.8em;
+    font-weight: 200;
+    padding-left: 1%;
+}
+.hosumaki-table{
+    width: 100%;
+    margin: auto;
+    letter-spacing: 0.2em;
+    margin-bottom: 7%;
+}
+.hosumaki-separator{
+    vertical-align: baseline;
+    padding-top: 25px;
+}
+.hosumaki-title {
+    font-size: 3.5em;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 0.1em;
+    
+}
+.hosumaki-item{
+    text-align: left;
+    font-size: 1.75em;
+    list-style-type: none;
+    padding-left: 5%;
+
+}
+
+.hosumaki-number{
+    display: inline-block;
+    color: rgb(56, 109, 205);
+    padding-right: 10px;
+    font-weight: 900;
+    font-size: 1.5em;
+    padding-left: 50%;
+    line-height: 0;
+}
+.hosumaki-name{
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    line-height: 1;
+    vertical-align: baseline;
+    padding-bottom: 5%;
+}
+.hosumaki-description{
+    font-size: 0.7em;
+    
+    font-weight: 150;
+    font-style: italic;
+    margin-bottom: 0.5%;
+    list-style-type: none;
+}
+
+.hosumaki-price{
+    font-size: 0.75em;
+    font-weight: 400;
+}
+.hosumaki-currency{
+    font-size: 0.8em;
+    font-weight: 200;
+    padding-left: 1%;
+}
+
+.futomaki-table{
+    width: 100%;
+    margin: auto;
+    letter-spacing: 0.2em;
+    margin-bottom: 100px;
+}
+.futomaki-separator{
+    vertical-align: baseline;
+    padding-top: 25px;
+}
+.futomaki-title {
+    font-size: 3.5em;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 0.1em;
+    
+}
+.futomaki-item{
+    text-align: left;
+    font-size: 1.75em;
+    list-style-type: none;
+    padding-left: 5%;
+
+}
+
+.futomaki-number{
+    display: inline-block;
+    color: rgb(56, 109, 205);
+    padding-right: 10px;
+    font-weight: 900;
+    font-size: 1.5em;
+    padding-left: 50%;
+    line-height: 0;
+}
+.futomaki-name{
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    line-height: 1;
+    vertical-align: baseline;
+    padding-bottom: 5%;
+}
+.futomaki-description{
+    font-size: 0.7em;
+    
+    font-weight: 150;
+    font-style: italic;
+    margin-bottom: 0.5%;
+    list-style-type: none;
+}
+
+.futomaki-price{
+    font-size: 0.75em;
+    font-weight: 400;
+}
+.futomaki-currency{
+    font-size: 0.8em;
+    font-weight: 200;
+    padding-left: 1%;
+}
+.page5{
+    height: 2200px;
+}
+.page5-left{
+    float:left;
+    width:50%;
+    height: 2200px;
+}
+
+.page5-right{
+    float:right;
+    width:50%;
+    height: 2200px;
+    padding-top: 22.5%;
+}
+.uramaki-table1{
+    width: 100%;
+    margin: auto;
+    letter-spacing: 0.2em;
+    margin-bottom: 150px;
+}
+.uramaki-name{
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    line-height: 1;
+    padding-bottom: 2%;
+}
+.pieces{
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.page6{
+    height: 2300px;
+}
+.page6-right{
+    float:right;
+    width:50%;
+    height: 2300px;
+}
+.page6-left{
+    float:left;
+    width:50%;
+    height: 2300px;
+    padding-top: 100px;
+}
+.temaki-item{
+    text-align: left;
+    font-size: 1.75em;
+    list-style-type: none;
+    padding-top: 4%;
+}
+
+.page7{
     padding-right: 100px;
-    height: 2300px;
+    height: 2200px;
     /* https://css-tricks.com/stripes-css/ */
     background-image: 
   
@@ -68,12 +1003,11 @@ i{width: 80px;}
     
     transparent 15px,
      10px,
-     #e6eff3 19px
+     #d9ebf2 19px
     
 
   ),
   linear-gradient(
-    to bottom,
     to bottom,
     white,
     white
@@ -81,7 +1015,28 @@ i{width: 80px;}
   );
   
 }
-.seventh-section{
+.holiday-table{
+    width: 100%;
+    margin: auto;
+
+    letter-spacing: 0.2em;
+    margin-bottom: 15%;
+}
+.holiday-images{
+    padding-left: 200px;
+    width: 550px;
+}
+.holiday-title {
+    font-size: 3.5em;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+    padding-top: 25%;
+    margin-top: 0px;
+    letter-spacing: 0.05em;
+}
+.page8{
     height: 1800px;
     background-image: 
   
@@ -92,7 +1047,7 @@ i{width: 80px;}
     
     transparent 15px,
      10px,
-    #e6eff3 19px
+     #d9ebf2 19px
     
 
   ),
@@ -103,8 +1058,8 @@ i{width: 80px;}
     
   );
 }
-.eighth-section{
-    height: 1600px;
+.page9{
+    height: 2114px;
     background-image: 
   
   repeating-linear-gradient(
@@ -114,7 +1069,7 @@ i{width: 80px;}
     
     transparent 15px,
      10px,
-    #e6eff3 19px
+     #d9ebf2 19px
     
 
   ),
@@ -125,252 +1080,53 @@ i{width: 80px;}
     
   );
 }
-.ninth-section{
-    height: 2100px;
-    background-image: 
-  
-  repeating-linear-gradient(
-    
-    33deg,
-    transparent,
-    
-    transparent 15px,
-     10px,
-    #e6eff3 19px
-    
-
-  ),
-  linear-gradient(
-    to bottom,
-    white,
-    white
-    
-  );
-}
-.tenth-section{
-    height: 2200px;
-    background-image: 
-  
-  repeating-linear-gradient(
-    
-    33deg,
-    transparent,
-    
-    transparent 15px,
-     10px,
-    #e6eff3 19px
-    
-
-  ),
-  linear-gradient(
-    to bottom,
-    white,
-    white
-    
-  );
-}
-.eighth-sub{
+.page9-sub{
     float: left;
     width: 33.333333%;
-    height: 1600px;
+    height: 1475px;
     padding-top: 400px;
 }
-.ninth-sub-left{
+.page10{
+    height: 2400px;
+    background-image: 
+  
+  repeating-linear-gradient(
+    
+    33deg,
+    transparent,
+    
+    transparent 15px,
+     10px,
+     #d9ebf2 19px
+    
+
+  ),
+  linear-gradient(
+    to bottom,
+    white,
+    white
+    
+  );
+}
+
+.page10-left{
     float: left;
     width: 45%;
-    height: 2100px;
+    height: 2400px;
     padding-top: 100px;
 }
-.ninth-sub-right{
+.page10-right{
     float: left;
     width: 55%;
-    height: 2100px;
+    height: 2400px;
 }
-.tenth-sub-left{
-    float: left;
-    width: 45%;
-    height: 2200px;
-    padding-top: 400px;
-}
-.tenth-sub-right{
-    float: left;
-    width: 55%;
-    height: 2200px;
-    padding-top: 350px;
-}
-
-.right-fourth-menu{
-    float:right;
-    width:50%;
-    height: 2050px;
-    padding-top: 150px;
-}
-.right-fifth-menu{
-    float:right;
-    width:50%;
-    height: 2300px;
-}
-.left-fifth-menu{
-    float:left;
-    width:50%;
-    height: 2300px;
-    padding-top: 100px;
-}
-.left-fourth-menu{
-    float:left;
-    width:50%;
-    height: 2050px;
-    
-}
-
-.left-menu {
-    float:left;
-    width:50%;
-    height: 4300px;
-    
-}
-
-.right-menu{
-    float:right;
-    width:50%;
-    height: 4300px;
-}
-.left-middle-menu {
-    float:left;
-    width:50%;
-    height: 1870px;
-}
-
-.right-middle-menu{
-    float:right;
-    width:50%;
-    height: 1945px;
-}
-.left-third-menu{
-    float:left;
-    width:50%;
-    height: 2280px;
-    
-    padding-top: 100px;
-}
-
-.right-third-menu{
-    float:right;
-    width:50%;
-    height: 2280px;
-    padding-top: 100px;
-}
-.starter-table{
-    width: 100%;
-    margin: auto;
-    letter-spacing: 0.2em;
-    margin-bottom: 7%;
-    position: relative;
-}
-.starter-item{
+.wines{
     text-align: left;
-    font-size: 2em;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
     list-style-type: none;
-    padding-top: 1%;
-
-}
-.starter-number{
-    display: inline-block;
-    color: rgb(56, 109, 205);
-    padding-right: 10px;
-    font-weight: 900;
-    font-size: 2em;
-    vertical-align: baseline;
-    line-height: 0;
-}
-.starter-separator{
-    padding-left: 50px;
-    vertical-align: baseline;
-}
-.sashimi-separator{
-    vertical-align: baseline;
-    padding-top: 25px;
-}
-.new-separator{
-    vertical-align: baseline;
-    padding-top: 25px;
-    width: 85px;
-}
-.soup-table{
-    width: 100%;
-    margin: auto;
-    letter-spacing: 0.2em;
-    margin-bottom: 7%;
-}
-.soup-separator{
-    padding-left: 100px;
-    vertical-align: baseline;
-}
-.leaf{
-    color: green;
-    font-size: 1em;
-}
-.circle{
-    color: rgb(56, 109, 205);
-}
-.neither{
-text-align: right;
-padding-right: 12px;
-}
-
-.Carpaccios-images{
-    width: 100%;
-    float: left;
-}
-.Carpaccios-table{
-    width: 100%;
-    margin: auto;
-    letter-spacing: 0.2em;
-    margin-bottom: 693px;
-}
-.TSU-SHIMIS-table{
-    width: 100%;
-    margin: auto;
-    letter-spacing: 0.2em;
-    margin-bottom: 408px;
-}
-.Carpaccios-separator{
-    vertical-align: baseline;
-}
-
-.chirashis-table{
-    letter-spacing: 0.2em;
-}
-.sashimi-table{
-    width: 100%;
-    margin: auto;
-    letter-spacing: 0.2em;
-    margin-bottom: 300px;
-}
-.uramaki-table1{
-    width: 100%;
-    margin: auto;
-    letter-spacing: 0.2em;
-    margin-bottom: 150px;
-}
-.sushi-table{
-    width: 100%;
-    margin: auto;
-    letter-spacing: 0.2em;
-    margin-bottom: 200px;
-}
-.hosumaki-table{
-    width: 100%;
-    margin: auto;
-    letter-spacing: 0.2em;
-    margin-bottom: 100px;
-}
-.holiday-table{
-    width: 100%;
-    margin: auto;
-
-    letter-spacing: 0.2em;
-    margin-bottom: 100px;
 }
 .wine-table{
     width: 100%;
@@ -378,58 +1134,142 @@ padding-right: 12px;
     padding-left: 25px;
     letter-spacing: 0.2em;
 }
-.salad-table{
-    letter-spacing: 0.2em;
-}
-
-.item-description{
-    font-size: 0.7em;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 150;
-    font-style: italic;
-    margin-bottom: 2%;
-    list-style-type: none;
-}
-.item-price{
-    font-size: 0.7em;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    list-style-type: none;
-}
 .wine-price{
     font-size: 1.25em;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
     list-style-type: none;
 }
-.currency{
-    font-size: 0.8em;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 250;
-    padding-left: 2%;
+.drinks-table{
+    position: absolute;
+    height: 300px;
+    width: 50%;
+    padding-left: 15%;
+     padding-top: 325px;
+      border-spacing: 4px;
+      color: white;
 }
-.protien-choice{
-    font-size: 0.5em;
+.drinks-title {
+    font-size: 3.5em;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 0.1em;
+    padding-right: 200px;
+    letter-spacing: 0.05em;
+      text-align: left;
+      color: white;
 }
-.pieces{
-    font-size: 2em;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-style: italic;
+.drinks-images{
+    height: 120px;
+    width: 70px;
+    padding-bottom: 20px;
 }
-.holiday-images{
+.drinks-header{
+    position: absolute;
+    height: 100px;
+    width: 50%;
     padding-left: 100px;
+     padding-top: 150px;
 }
 
+.page11{
+    height: 2300px;
+    background-image: 
+  
+  repeating-linear-gradient(
+    
+    33deg,
+    transparent,
+    
+    transparent 15px,
+     10px,
+     #d9ebf2 19px
+    
+
+  ),
+  linear-gradient(
+    to bottom,
+    white,
+    white
+    
+  );
+}
+.page11-left{
+    float: left;
+    width: 45%;
+    height: 2300px;
+    padding-top: 15%;
+}
+.page11-right{
+    float: left;
+    width: 55%;
+    height: 2300px;
+    padding-top: 8%;
+}
+.spirits-images{
+    height: 80px;
+     width: 100px;
+      padding-left: 30%;
+}
+.spirits-title {
+    font-size: 3.5em;
+    font-weight: 300;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 0.1em;
+    padding-right: 200px;
+    letter-spacing: 0.05em;
+    padding-left: 2%;
+    text-align: left;
+}
+.spirits-table {
+    padding-left: 22.5%;
+    border-spacing: 10px;
+    padding-bottom: 50px;
+}
+.cocktail-table {
+    padding-left: 140px;
+     border-spacing: 10px;
+      padding-bottom: 50px;
+}
+.sake-images{
+    padding-left:30% ;
+     padding-top: 70%;
+}
+.sake-table{
+    padding-left: 16.5%;
+    border-spacing: 10px;
+}
+
+.leaf{
+    color: green;
+    font-size: 1em;
+    width: 150%;
+}
+.circle{
+    color: rgb(56, 109, 205);
+}
+.see-you-soon{
+font-size: 0.7em;
+font-weight: 400;
+font-style: italic;
+margin-bottom: 0.5%;
+list-style-type: none;
+}
+
+.thick{
+    border-top: 5px solid #8c8b8b;
+}
 .cut{
     
   
-  clip-path: polygon(48% 15%, 75% 0%, 84% 6%, 95% 50%, 30% 100%, 12% 100%, 0% 70%, 0% 47%);
-}
-.cut2{
-    clip-path: ellipse(580px 500px at 72% 37%)
-    
-}
-.drinks-font{
-    color: white;
-}
+    clip-path: polygon(48% 15%, 75% 0%, 84% 6%, 95% 50%, 30% 100%, 12% 100%, 0% 70%, 0% 47%);
+  }
+  .cut2{
+      clip-path: ellipse(580px 500px at 72% 37%);
+      float: right;
+       width: 100%;
+        z-index: -1;
+         margin-bottom: 47.5%;
+      
+  }
